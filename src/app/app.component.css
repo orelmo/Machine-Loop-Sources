@@ -1,0 +1,146 @@
+#header
+{
+    text-align:center;
+    color: #99f741; ;
+}
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#padsContainer
+{
+    width: 350px;
+}
+
+#recordButton
+{
+    margin-right: 50px;
+}
+
+#playRecordButton
+{
+    margin-left: 50px;
+}
+
+.recordButton
+{
+    background-image: url(..\\assets\\icons\\record-button.png);
+}
+
+.recordButtonRecording
+{
+    background-image: url(..\\assets\\icons\\record-button-recording.png);
+}
+
+.playRecordButton
+{
+    background-image: url(..\\assets\\icons\\play-record.png);
+}
+
+.playRecordButtonPlaying
+{
+    background-image: url(..\\assets\\icons\\play-record-playing.png);
+}
+
+.playButton
+{
+    background-image: url(..\\assets\\icons\\play-button.png);
+}
+
+.playButtonPlaying
+{
+    background-image: url(..\\assets\\icons\\play-button-playing.png);
+}
+
+.stopButton
+{
+    background-image: url(..\\assets\\icons\\stop-button.png);
+}
+
+.stopButtonStopping
+{
+    background-image: url(..\\assets\\icons\\stop-button-stopping.png);
+}
+
+.displayed
+{
+    display: none;
+}
+
+.operatingButton
+{
+    width: 50px;
+    height: 50px;
+    border-color: transparent;
+    background-color: transparent;
+    background-position: center;
+    margin: 20px;
+}
+
+.pad
+{
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    margin: 7px;
+}
+
+.pad.unpressedPad
+{
+    background-color: rgb(211, 87, 201);
+}
+
+.pad.pressedPad
+{
+    background-color: rgb(36, 202, 202);
+}
+
+#pad0
+{
+    background-image: url(..\\assets\\icons\\scratch.png);
+}
+
+#pad1
+{
+    background-image: url(..\\assets\\icons\\subwoofer.png);
+}
+
+#pad2
+{
+    background-image: url(..\\assets\\icons\\bass-guitar.png);
+}
+
+#pad3
+{
+    background-image: url(..\\assets\\icons\\guitar.png);
+}
+
+#pad4
+{
+    background-image: url(..\\assets\\icons\\drums.png);
+}
+
+#pad5
+{
+    background-image: url(..\\assets\\icons\\darbuka.png);
+}
+
+#pad6
+{
+    background-image: url(..\\assets\\icons\\mixer.png);
+}
+
+#pad7
+{
+    background-image: url(..\\assets\\icons\\little-drum.png);
+}
+
+#pad8
+{
+    background-image: url(..\\assets\\icons\\piano.png);
+}

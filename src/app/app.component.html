@@ -1,0 +1,17 @@
+<h1 id="header" >Loop Machine</h1>
+
+<div id="padsContainer" class="container">
+  <button *ngFor="let pad of pads; index as index" class="pad unpressedPad" id="pad{{index}}" (click)="padClicked(index)"></button>
+</div>
+
+<div id="playStopContainer" class="container">
+        <button id="playButton" class="operatingButton playButton" (click)="buttonPlayClicked()"></button>
+        <button id="stopButton" class="operatingButton stopButton" (click)="buttonStopClicked()"></button>
+</div>
+
+<div id="recordContainer" class="container">
+    <button id="recordButton" class="operatingButton recordButton" (click)="buttonRecordClicked()"></button>
+    <button id="playRecordButton" class="operatingButton playRecordButton displayed" (click)="buttonPlayRecordClicked()"></button>
+</div>
+
+<router-outlet></router-outlet>
