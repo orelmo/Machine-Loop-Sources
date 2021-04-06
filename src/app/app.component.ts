@@ -266,7 +266,7 @@ export class AppComponent {
     }
   }
 
-  buttonPlayRecordClicked(){
+  buttonPlayRecordClicked(){    
     if(!this.isRecordOccurred)
     {
       this.fillSavedRecordAudio()
@@ -308,6 +308,7 @@ export class AppComponent {
     (document.getElementById("playButton") as HTMLButtonElement).disabled = disabilityState;
     (document.getElementById("recordButton") as HTMLButtonElement).disabled = disabilityState;
     (document.getElementById("stopButton") as HTMLButtonElement).disabled = disabilityState;
+    (document.getElementById("playRecordButton") as HTMLButtonElement).disabled = disabilityState;
 
     if(disabilityState)
     {
